@@ -9,30 +9,30 @@ I will push here my advencement in the C++ courses and what seems to be importan
 ###Compiler
 
 ###IDE
-f12: definition
-f2: change name
-f5 + CTRL: run
+  f12: definition
+  f2: change name
+  f5 + CTRL: run
 
 ###GIT
-don't commit unworking code
-make clear phrases in the title of the commit
+  don't commit unworking code
+  make clear phrases in the title of the commit
 
 ###Debugger
-f9 -> put a breakpoint
+  f9 -> put a breakpoint
 
 ###Formating Tool
 
 ###Static analyser
-cppCheck to find errors
+  cppCheck to find errors
 
 ###Naming
-try to be as clear and short as possible
+  try to be as clear and short as possible
 
 ###Stack/Heap
-Heap is good for polymorphisme and huge objects. Stack seems to be preferable in the other cases in general
+  Heap is good for polymorphisme and huge objects. Stack seems to be preferable in the other cases in general
 
 ###consistency in style
-Try to make everything similar and identifiable in a single project -> keep the same style.
+  Try to make everything similar and identifiable in a single project -> keep the same style.
 
 ---
 
