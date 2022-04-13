@@ -10,8 +10,8 @@ I will push here my advencement in the C++ courses and what seems to be importan
 
 ###IDE
    >f12: definition
-   f2: change name
-   f5 + CTRL: run
+   *f2: change name
+   *f5 + CTRL: run
 
 ###GIT
    >don't commit unworking code
