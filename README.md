@@ -9,9 +9,9 @@ I will push here my advencement in the C++ courses and what seems to be importan
 ###Compiler
 
 ###IDE
-   >f12: definition
-   *f2: change name
-   *f5 + CTRL: run
+   >f12: definition </br>
+   >f2: change name
+   >f5 + CTRL: run
 
 ###GIT
    >don't commit unworking code
