@@ -10,11 +10,11 @@ I will push here my advencement in the C++ courses and what seems to be importan
 
 ###IDE
    >f12: definition </br>
-   >f2: change name
+   >f2: change name</br>
    >f5 + CTRL: run
 
 ###GIT
-   >don't commit unworking code
+   >don't commit unworking code</br>
    >make clear phrases in the title of the commit
 
 ###Debugger
