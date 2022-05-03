@@ -70,3 +70,26 @@ I will push here my advencement in the C++ courses and what seems to be importan
 ---
 
 ## LEVEL 3
+
+### std:vector
+   >Use std:vector as a container !
+
+### Strong Types
+   > it gives a concrete representation to a concepts, or units, and it helps to well use API
+
+### Use Librairies
+   >Librairies are made to be read and to be use (logic)
+   >add_subdirectory(libname)
+
+### Range-based for loop
+   > Helps not to modify the index which is in the body of the loop.
+
+### Documentation
+   >Comments under functions
+   >Explain why we have choosen a solution over the others
+   
+### Git submodules
+   >git clone --recursive https://github.com/url/to/the/repo clone a project with submodules
+
+### std::optional
+   >clearly show that we have nul types
