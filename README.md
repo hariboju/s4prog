@@ -1,29 +1,74 @@
-# Simple-Cpp-Setup
+# Welcome to my Advencements
 
-Welcome to this minimalist C++ project!
+I will push here my advencement in the C++ courses and what seems to be important for me!
 
-## If you use the Dev Container
 
-If you install [ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) and [Docker](https://www.docker.com/products/docker-desktop), you will be able to run your code inside a Linux container (kind of like a virtual machine, but faster). Also, you will get static analyzers, code formatters and useful extensions installed out of the box! It is a great option to get started with C++ quickly.
 
-(Unfortunately, if you want to do GUI applications they don't work well from within a container and you might have to do a proper setup on your own desktop instead. But for simple command-line applications this works amazingly well!)
+## LEVEL 1
 
-NB: the container might take a while to build the first time.
+### Compiler
 
-## If you don't use the Dev Container
+### IDE
+   >f12: definition </br>
+   >f2: change name</br>
+   >f5 + CTRL: run
+### GIT
+   >don't commit unworking code</br>
+   >make clear phrases in the title of the commit
+### Debugger
+   >f9 -> put a breakpoint
+### Formating Tool
 
-### Compiling
+### Static analyser
+   >cppCheck to find errors
+### Naming
+   >try to be as clear and short as possible
+### Stack/Heap
+   >Heap is good for polymorphisme and huge objects. Stack seems to be preferable in the other cases in general
+### Consistency in style
+   >Try to make everything similar and identifiable in a single project -> keep the same style.
+---
 
-You need to install [CMake](https://cmake.org/download/).
+## LEVEL 2
 
-To use CMake I recommend this VS Code extension : [ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools). You will need to setup the extension with a compiler. Here is [the tutorial](https://code.visualstudio.com/docs/cpp/cmake-linux). It is based on Linux but at the bottom of the page you will find the explanations to adapt it for [Windows](https://code.visualstudio.com/docs/cpp/config-msvc) and [Mac](https://code.visualstudio.com/docs/cpp/config-clang-mac).
+### Work, then good
+   >Before trying to have the best and shorter code, make something that is working 
+### Free functions
+   >Better for the encapsulation of classes 
+### Design cohesive classes
+   >respect single responsability</br>
+   >Prefer struct to class if ther are no invariants </br>
+### Structs to group data
+   >Designated initializers
+### Small functions
+   >as small as possible to make everything redable and dissociable
+### Don't repeat yourself
+   >Use the same functions for deferent things if it's possible, don't creat similar things
+### Enums
+   >use Enum class and not Enum
+### Problems in small Pieces 
+   >functions and class as simple and short as possbile </br>
+   >Split huge tasks in different little tasks
+### Composition over Inheritance
+   >use polymorphism over inheritance
+---
 
-Alternatively you can just create a *build* folder at the root of this project, open a terminal and run `cmake ..`; chances are it will detect what compiler you have installed and generate the appropriate Makefile / Visual Studio solution / Xcode project.
+## LEVEL 3
 
-### Auto-formatting
-
-[Check this out](https://julesfouchy.github.io//Learn--Clean-Code-With-Cpp/lessons/formatting-tool) to learn why you would want to use a code formatter and how to do it.
-
-### Static analysis
-
-[Check this out](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/static-analysis-and-sanitizers) to learn why you would want to use static analysis and how to do it.
+### std:vector
+   >Use std:vector as a container !
+### Strong Types
+   > it gives a concrete representation to a concepts, or units, and it helps to well use API
+### Use Librairies
+   >Librairies are made to be read and to be use (logic)
+   >add_subdirectory(libname)
+### Range-based for loop
+   > Helps not to modify the index which is in the body of the loop.
+### Documentation
+   >Comments under functions
+   >Explain why we have choosen a solution over the others
+   
+### Git submodules
+   >git clone --recursive https://github.com/url/to/the/repo clone a project with submodules
+### std::optional
+   >clearly show that we have nul types
