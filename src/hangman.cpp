@@ -54,11 +54,8 @@ void reduce_life(int& number_life) // remove a life to the player
 
 void word_and_lettre_left(std::string word, std::vector<bool> letters_guessed)
 {
-    size_t i = 0;
-    int    j;
-    for (j = 0; word[j] != 0; j++) {
-    }
-    int numbre_of_caractere = j; // counting the number of caractere in the word
+    size_t i                   = 0;
+    int    numbre_of_caractere = word.size(); // counting the number of caractere in the word
     std::cout << "The word is " << numbre_of_caractere << " lettre long, guess it: " << std::endl;
     while (i < word.size()) {
         if (letters_guessed[i])

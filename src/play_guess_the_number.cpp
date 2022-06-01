@@ -1,20 +1,14 @@
 #include "play_guess_the_number.hpp"
+#include "get_input.hpp"
+#include "random.hpp"
 
-/// Returns a random int between min (included) and max (included)
-int rand(int min, int max)
-{
-    static std::default_random_engine  generator{std::random_device{}()};
-    std::uniform_int_distribution<int> distribution{min, max};
-    return distribution(generator);
-}
-
-int get_int_from_user()
+/*int get_int_from_user()
 {
     // TODO ;) Use std::cin to get an int, and then return it
     int user_int;
     std::cin >> user_int;
     return user_int;
-}
+}*/
 
 void play_guess_the_number()
 {
@@ -26,7 +20,7 @@ void play_guess_the_number()
     while (!finished) {
         std::cout << "Choose a number between 0 and 100: ";
 
-        int user_integer = get_int_from_user(); // Ask for a number
+        const int user_integer = get_input<int>(); // Ask for a number
         if (user_integer == recup_random) {
             std::cout << "congrate";
             finished = true;
